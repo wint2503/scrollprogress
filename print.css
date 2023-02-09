@@ -1,0 +1,25 @@
+body{
+    color: purple;
+}
+
+.pagebreak{
+    page-break-after: always;
+}
+
+.noprint{
+    display: none;
+}
+
+.header{
+    position: static;
+
+    -webkit-print-color-adjust: exact;
+}
+
+.content{
+    -webkit-print-color-adjust: exact;
+}
+@page{
+    size: legal;
+    margin: 0;
+}
